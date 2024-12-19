@@ -1,0 +1,13 @@
+2024-10-18 11:56:45,117 - Main - INFO - Fetching weather data for Berlin
+2024-10-18 11:56:45,117 - FetchData - INFO - Sending request to WeatherAPI for location: Berlin
+2024-10-18 11:56:45,319 - FetchData - INFO - Weather data fetched successfully
+2024-10-18 11:56:45,330 - Main - INFO - Extracting important weather data
+2024-10-18 11:56:45,330 - ImportantData - INFO - Extracting data from weather forecast
+2024-10-18 11:56:45,333 - ImportantData - INFO - Data extraction and formatting successful
+2024-10-18 11:56:45,333 - Main - INFO - Generating PDF with weather data
+2024-10-18 11:56:45,335 - Main - INFO - Sending email to alaamousahassan@gmail.com
+2024-10-18 11:56:45,335 - Main - ERROR - An error occurred: EmailSender.send_email_with_pdf() missing 5 required positional arguments: 'title', 'body', 'closing', 'footer', and 'pdf_filename'
+Traceback (most recent call last):
+  File "C:\Users\alaam\Desktop\Arbeit Unterlagen\weather\main.py", line 84, in main
+    email_sender.send_email_with_pdf(
+TypeError: EmailSender.send_email_with_pdf() missing 5 required positional arguments: 'title', 'body', 'closing', 'footer', and 'pdf_filename'

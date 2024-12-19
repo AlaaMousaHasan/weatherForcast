@@ -1,0 +1,16 @@
+2024-10-21 16:46:02,661 - Main - INFO - Fetching weather data for Berlin
+2024-10-21 16:46:02,662 - FetchData - INFO - Sending request to WeatherAPI for location: Berlin
+2024-10-21 16:46:32,865 - FetchData - ERROR - Error fetching data: 502
+2024-10-21 16:46:32,865 - FetchData - ERROR - An error occurred during API request: Error fetching data: 502
+Traceback (most recent call last):
+  File "C:\Users\alaam\Desktop\Arbeit Unterlagen\weather\fetch_data.py", line 35, in parse
+    raise Exception(f"Error fetching data: {response.status_code}")
+Exception: Error fetching data: 502
+2024-10-21 16:46:32,875 - Main - ERROR - An error occurred: Error fetching data: 502
+Traceback (most recent call last):
+  File "C:\Users\alaam\Desktop\Arbeit Unterlagen\weather\main.py", line 60, in main
+    forecast_data = weather_fetcher.parse(LOCATION)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\alaam\Desktop\Arbeit Unterlagen\weather\fetch_data.py", line 35, in parse
+    raise Exception(f"Error fetching data: {response.status_code}")
+Exception: Error fetching data: 502

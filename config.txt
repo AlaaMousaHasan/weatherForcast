@@ -1,0 +1,7 @@
+[API]
+api_key=
+
+[EMAIL]
+sender_email=
+sender_password=
+recipient_email=

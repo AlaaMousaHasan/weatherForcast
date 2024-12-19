@@ -1,0 +1,9 @@
+2024-10-21 16:47:12,061 - Main - INFO - Fetching weather data for Berlin
+2024-10-21 16:47:12,062 - FetchData - INFO - Sending request to WeatherAPI for location: Berlin
+2024-10-21 16:47:14,120 - FetchData - INFO - Weather data fetched successfully
+2024-10-21 16:47:14,126 - Main - INFO - Extracting important weather data
+2024-10-21 16:47:14,126 - ImportantData - INFO - Extracting data from weather forecast
+2024-10-21 16:47:14,128 - ImportantData - INFO - Data extraction and formatting successful
+2024-10-21 16:47:14,128 - Main - INFO - Generating PDF with weather data
+2024-10-21 16:47:14,131 - Main - INFO - Sending email to alaamousahassan@gmail.com
+2024-10-21 16:47:15,958 - Main - INFO - Weather data successfully fetched, PDF generated, and email sent
